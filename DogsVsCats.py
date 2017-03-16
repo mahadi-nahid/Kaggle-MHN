@@ -17,8 +17,8 @@ from tqdm import tqdm      # a nice pretty percentage bar for tasks. Thanks to v
 
 #-----------------------------------------------------------------------------------
 
-TRAIN_DIR = 'X:/Kaggle_Data/dogs_vs_cats/train/train'
-TEST_DIR = 'X:/Kaggle_Data/dogs_vs_cats/test/test'
+TRAIN_DIR = 'E:/Projects and Codes/Dataset/kaggle_dogs_vs_cats/train/train'
+TEST_DIR = 'E:/Projects and Codes/Dataset/kaggle_dogs_vs_cats/test/test'
 IMG_SIZE = 50
 LR = 1e-3
 
@@ -172,6 +172,7 @@ import matplotlib.pyplot as plt
 
 # if you need to create the data:
 #test_data = process_test_data()
+
 # if you already have some saved:
 test_data = np.load('test_data.npy')
 

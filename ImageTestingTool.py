@@ -1,10 +1,10 @@
 import numpy as np
 import os
-from IPython.display import display, Image
+#from IPython.display import display
 from PIL import Image
 
 # filenames for the training and testing folders
-train_folder = "Images"
+train_folder = ".\Images"
 
 # standard dimensions to which all images will be rescaled
 dimensions = (50, 50)
